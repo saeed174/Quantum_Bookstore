@@ -1,6 +1,8 @@
 public class ShippingService {
 
-    public ShippingService(PaperBook paperBook , String address) {
+    static void shippingService(Book book, String email)
+    {
+
     }
     
 }

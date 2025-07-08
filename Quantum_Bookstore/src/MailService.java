@@ -1,7 +1,7 @@
 public class MailService {
     
-    public MailService(EBook ebook, String mail) {
-        
-    }
+    static void mailService(Book book, String email)
+    {
 
+    }
 }
