@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class Inventory {
@@ -32,7 +33,8 @@ public class Inventory {
     }
 
     public List<Book> remove(int noOfYear) {
-        int year = 2025; // getYear returns year since 1900
+        Date d  = new Date() ;
+        int year = d.getYear() + 1900; 
         for (int i = 0; i < inventory.size(); i++) {
             if (inventory.get(i).getYearOfPublish() != null && (year - Integer.parseInt(inventory.get(i).getYearOfPublish())) > noOfYear) {
                 inventory.remove(i);
