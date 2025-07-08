@@ -28,7 +28,7 @@ public class App {
 
         inventory.addBook(newBook);
 
-        inventoryList = inventory.remove(2000);
+        inventoryList = inventory.remove(25);
         System.out.println("\nBooks published before 2000 have been removed from the inventory.\n");
 
         System.out.printf("%-30s %-20s %-12s %-20s\n", "Book Name", "Author", "ISBN" , "Publish year");
