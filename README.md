@@ -35,3 +35,5 @@ All output is prefixed with `Quantum Book Store`.
    ```bash
    git clone https://github.com/saeed174/Quantum_Bookstore.git
    cd Quantum_Bookstore
+
+![Quantum Bookstore Output](screenshot.png)
