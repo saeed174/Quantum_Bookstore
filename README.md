@@ -36,4 +36,8 @@ All output is prefixed with `Quantum Book Store`.
    git clone https://github.com/saeed174/Quantum_Bookstore.git
    cd Quantum_Bookstore
 
+   ---
+
+## Output Screen
+
 ![Quantum Bookstore Output](screenshot.png)
