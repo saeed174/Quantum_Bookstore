@@ -1,4 +1,4 @@
-# 📚 Quantum Bookstore
+## 📚 Quantum Bookstore
 
 Welcome to the **Quantum Bookstore** – a simple Java-based simulation of an online bookstore that supports paper books, ebooks, and showcase/demo books.
 
